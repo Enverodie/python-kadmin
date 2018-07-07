@@ -5,7 +5,7 @@ all: dist
 dist:
 	python3 setup.py sdist
 
-publish: dist
+publish:
 	twine upload dist/*
 
 clean:
