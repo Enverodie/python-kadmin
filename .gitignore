@@ -36,3 +36,5 @@ krb5cc*
 .vagrant
 Vagrantfile
 
+kadmin.egg-info
+python_kadmin_local.egg-info
