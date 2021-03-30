@@ -22,13 +22,13 @@ execute(spawn, (['mkdir', '-p', './build/bdist.linux-x86_64/wheel'],))
 
 setuptools.setup(
     name='kadmin',
-    version='0.0.2',
+    version='0.0.3',
     description='Python module for kerberos admin (kadm5)',
     url='https://github.com/nightfly19/python-kadmin',
     download_url='https://github.com/nightfly19/python-kadmin/tarball/v0.0.2',
     author='Russell Jancewicz, Sage Imel',
     author_email='sageimel@gmail.com',
-    python_requires='>=3.5',
+    python_requires='>=3.8.5',
     license='MIT',
     ext_modules=[
         Extension(
@@ -66,13 +66,13 @@ setuptools.setup(
 
 setuptools.setup(
     name='kadmin-local',
-    version='0.0.2',
+    version='0.0.3',
     description='Python module for kerberos admin (kadm5) via root local interface',
     url='https://github.com/nightfly19/python-kadmin',
     download_url='https://github.com/nightfly19/python-kadmin/tarball/v0.0.2',
     author='Russell Jancewicz, Sage Imel',
     author_email='sageimel@gmail.com',
-    python_requires='>=3.5',
+    python_requires='>=3.8.5',
     license='MIT',
     ext_modules=[
         Extension(
