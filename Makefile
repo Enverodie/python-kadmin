@@ -3,7 +3,7 @@
 all: dist
 
 dist:
-	python3 setup.py sdist
+	python3 kadmin/setup.py sdist && python3 kadmin_local/setup.py sdist
 
 publish:
 	twine upload dist/*

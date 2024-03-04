@@ -3,8 +3,17 @@ python-kadmin
 
 Python module for kerberos admin (kadm5)
 
-This is a fork of https://github.com/rjancewicz/python-kadmin.
-Currently only exists to push bug fixes to PyPI.
+This is a fork of https://github.com/nightfly19/python-kadmin, which is in turn a fork of https://github.com/rjancewicz/python-kadmin.
+It is designed to work with Python versions we support (3.11.5).
+
+## Installation
+You will likely need to build the modules yourself.
+
+Run each of these commands from the project root:
+```bash
+python3 kadmin/setup.py sdist && python3 kadmin_local/setup.py sdist
+python3 -m pip install ./kadmin && python3 -m pip install ./kadmin_local
+```
 
 ## Initilization
 

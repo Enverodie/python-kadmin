@@ -37,3 +37,5 @@ krb5cc*
 Vagrantfile
 
 *.egg-info
+
+*/__pycache__/*
